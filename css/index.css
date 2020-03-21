@@ -71,6 +71,26 @@ p {
     margin: 0 auto;
 }
 
+.flex-container {
+    display: flex;
+}
+
+.home-header {
+    margin: 4% 0;
+}
+
+.nav-bar {
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -79,9 +99,10 @@ p {
     border-bottom: 1px dashed black;
 }
 
+
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
+    padding: 2% 1%;
     padding-bottom: 20px;  
 }
 
@@ -110,6 +131,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#box-one {
+    background: teal;
+}
+
+#box-two {
+    background: gold;
+}
+
+#box-three {
+    background: cadetblue;
+}
+
+#box-four {
+    background: coral;
+}
+
+#box-five {
+    background: crimson;
+}
+
+#box-six {
+    background: forestgreen;
+}
+
+#box-seven {
+    background: darkorchid;
+}
+
+#box-eight {
+    background: hotpink;
+}
+
+#box-nine {
+    background: indigo;
+}
+
+#box-ten {
+    background: dodgerblue;
 }
 
 .bottom-content {

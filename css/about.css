@@ -90,14 +90,28 @@ p {
     color: black;
 }
 
+.nav-bar a:hover {
+    color: red;
+}
+
 .about-section {
     padding: 2%;
     border-bottom: 1px dashed black;
     margin-bottom: 3%;
 }
 
+
+.about-section h3 {
+    margin-top: 2%;
+}
+
+.contents {
+    justify-content: space-around;
+}
+
 .box {
-    width: 50%;
+    margin: 0 2%;
+    width: 46%;
     border-bottom: 1px dashed black;
     justify-content: space-between;
 }
@@ -107,22 +121,28 @@ p {
 }
 
 .box button {
-    margin: 4% 0;
+    margin: 6% 0;
     width: 35%;
     line-height: 2;
     background: white;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 5px;
     font-size: 18px;
 }
 
+.box button:hover {
+    color: white;
+    background: black;
+    border-color: cornflowerblue;
+}
+
 .lower-content {
-    margin:  6% 0;
+    margin:  6% 2%;
 }
 
 .work-together {
-    margin-bottom: 5%;
-    padding: 1%;
+    margin-bottom: 4%;
+    padding: 3%;
 }
 footer {
     width: 100%;
@@ -139,6 +159,15 @@ footer nav {
 }
 
 footer nav a {
+    padding: 1%;
     color: white;
     text-decoration: none;
+    border-radius: 3px;
+    transition: color 1s, background 1s;
+}
+
+footer nav a:hover {
+    background: white;
+    color: black;
+
 }

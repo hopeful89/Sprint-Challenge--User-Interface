@@ -70,3 +70,75 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+
+.flex-container {
+    display: flex;
+}
+
+.home-header {
+    margin: 4% 0;
+}
+
+.nav-bar {
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+}
+
+.about-section {
+    padding: 2%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 3%;
+}
+
+.box {
+    width: 50%;
+    border-bottom: 1px dashed black;
+    justify-content: space-between;
+}
+
+.box img {
+    margin-bottom: 2%;
+}
+
+.box button {
+    margin: 4% 0;
+    width: 35%;
+    line-height: 2;
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.lower-content {
+    margin:  6% 0;
+}
+
+.work-together {
+    margin-bottom: 5%;
+    padding: 1%;
+}
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
